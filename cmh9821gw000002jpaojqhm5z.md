@@ -42,3 +42,5 @@ It supports a fabulous O(log n) insertions in a sorted list without locking.
 By identifying the true bottleneck, Twitter's engineers crafted a brilliant two-part solution. First, they used descending document IDs to make new tweets instantly findable. Second, they implemented a concurrent skip list to allow new tweets to be inserted instantly without the system-halting delays caused by locking. The result was a dramatic improvement: latency plummeted from a frustrating 15 seconds to a nearly imperceptible 1 second.
 
 This journey from lag to live shows how a deep understanding of a problem's root cause can lead to elegant and powerful solutions. It leaves us with a final question to consider: What other seemingly small delays in the apps we use every day might be hiding equally fascinating engineering challenges?
+
+Youtube Explanation video : [link](https://youtu.be/fiG6_wX6--A)
